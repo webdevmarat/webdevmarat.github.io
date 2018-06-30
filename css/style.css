@@ -27,8 +27,8 @@ header{
 	margin-top: 20px;
 }
 .header-button{
-	display: inline-block;
-	text-decoration: none;
+display: inline-block;
+text-decoration: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
 background-color: #ffffff;
@@ -37,6 +37,12 @@ font-size: 18px;
 font-weight: 700;
 padding: 17px 50px;
 margin-top: 33px;
+}
+.header-button:hover{
+box-shadow: none;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
 }
 header small{
 	font-size: 12px;
@@ -135,8 +141,14 @@ text-align: center;
 	color: #fff;
 	font-size: 18px;
 	padding: 12px 40px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
-
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
+}
 
 
 
